@@ -1,0 +1,4 @@
+from collections import Counter
+s = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
+a = Counter(s)
+print (a)
